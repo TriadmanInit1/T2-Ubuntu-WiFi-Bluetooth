@@ -18,3 +18,9 @@ Run the script as sudo.
 ```
 sudo ./install_wifi_bluetooth_firmware.sh
 ```
+
+Re-load the Mac firmware.
+
+```bash
+sudo modprobe -r brcmfmac && sudo modprobe brcmfmac
+```
