@@ -49,11 +49,6 @@ main() {
         exit 1
     fi
 
-    if ! is_root; then
-        echo "Error: This script must be run as root."
-        exit 1
-    fi
-
     echo "Downloading firmware..."
     setup_firmware
 }
